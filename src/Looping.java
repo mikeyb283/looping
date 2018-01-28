@@ -3,9 +3,10 @@ import java.util.Scanner;
 public class Looping {
   public static void main(String[] args){
 
-    int userChoice;
+    int userChoice; //define variable for user input
     Scanner userIn = new Scanner(System.in);
 
+    //print the menu for the user, do-while will iterate at least once.
     do{
       System.out.println("Welcome to Mike's Electronics Store");
       System.out.println("**");
@@ -17,8 +18,10 @@ public class Looping {
       System.out.println("Select an option from the menu above");
       userChoice = userIn.nextInt();
     }
+    //cause menu to display again if user choice is not one of the menu options
     while (userChoice < 1 || userChoice > 4 );
 
+    //determine user choice to display appropriate message
     switch (userChoice) {
       case 1:
         System.out.println("You chose to buy a Laptop the price is $500.");
