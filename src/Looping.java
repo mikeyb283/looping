@@ -9,9 +9,9 @@ public class Looping {
     do{
       System.out.println("Welcome to Mike's Electronics Store");
       System.out.println("**");
-      System.out.println("1) Laptop");
-      System.out.println("2) Tablet");
-      System.out.println("3) Smart Phone");
+      System.out.println("1) Laptop $500");
+      System.out.println("2) Tablet $400");
+      System.out.println("3) Smart Phone $300");
       System.out.println("4) EXIT");
       System.out.println("**");
       System.out.println("Select an option from the menu above");
